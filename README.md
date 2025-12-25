@@ -1,19 +1,16 @@
-# 🎈 Blank app template
+# MishraAlgoBot (Streamlit)
 
-A simple Streamlit app template for you to modify!
+This repository contains a minimal Streamlit app (app.py) that can be run locally or deployed to platforms like Heroku or Streamlit Community Cloud.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+How to run locally:
 
-### How to run it on your own machine
+1. Create and activate a Python virtual environment (recommended).
+2. Install dependencies:
 
-1. Install the requirements
+   pip install -r requirements.txt
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+3. Run the app:
 
-2. Run the app
+   streamlit run app.py
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+Optional: Add secrets (for API keys) when deploying to Streamlit Cloud by adding an `OPENAI_API_KEY` value in the app's Secrets.
