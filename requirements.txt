@@ -1,2 +1,7 @@
 streamlit
-openai
+pandas
+numpy
+yfinance
+plotly
+smartapi-python
+pyotp
